@@ -14,7 +14,7 @@ export function Timeline() {
           <img src={calendar} alt="timeline" />
         </h1>
       </div>
-      <div className="p-20 text-left">
+      <div className="p-10 md:p-20 text-left">
         <VerticalTimeline>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"

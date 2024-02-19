@@ -13,13 +13,20 @@
   font-size: 1rem;
   color: rgb(145, 156, 161);
 }
-h4{
-    color: rgb(74, 80, 85);
+h4 {
+  color: rgb(74, 80, 85);
 }
 /* timeline.css */
 
 @media (max-width: 768px) {
-  .vertical-timeline-element {
-    margin: 0;
+  /* Adjust max-width as needed */
+  .vertical-timeline-element-content {
+    padding: 20px; /* Adjust padding for smaller screens */
   }
+
+  .vertical-timeline-element-subtitle {
+    font-size: 14px; /* Adjust font size for smaller screens */
+  }
+
+  /* Add more styles as needed */
 }
