@@ -1,4 +1,4 @@
-import React from "react";
+
 import bgImage from "./assets/images/bg-image.png";
 import Hometext from "./components/Hometext";
 import Navbar from "./components/Navbar";
