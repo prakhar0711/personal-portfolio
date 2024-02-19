@@ -20,7 +20,7 @@ function TechStackCard({
   img7,
 }) {
   return (
-    <div className="card flex flex-wrap md:max-w-lg lg:max-w-xl w-96 bg-base-100 shadow-xl rounded-2xl overflow-hidden">
+    <div className="card flex flex-wrap w-96 bg-base-100 shadow-xl rounded-2xl ">
       <div className="card-body">
         <h2 className="card-title font-extrabold ">{title}</h2>
         <p>{description}</p>
