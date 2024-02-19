@@ -9,3 +9,8 @@
 .card:hover {
   transform: translateY(-10px); /* Move the card up slightly on hover */
 }
+@media (max-width: 768px) {
+  .card {
+    max-width: 300px; /* or any other desired width */
+  }
+}
