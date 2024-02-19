@@ -1,0 +1,9 @@
+/* techstack.css */
+.tech-stack-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Adjust min and max width as needed */
+  gap: 20px; /* Adjust gap between items */
+  padding: 20px; /* Adjust padding */
+}
+
+/* Additional styles as needed for responsiveness */
