@@ -16,3 +16,10 @@
 h4{
     color: rgb(74, 80, 85);
 }
+/* timeline.css */
+
+@media (max-width: 768px) {
+  .vertical-timeline-element {
+    margin: 0;
+  }
+}
