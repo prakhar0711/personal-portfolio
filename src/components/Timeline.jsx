@@ -21,7 +21,7 @@ export function Timeline() {
             contentStyle={{
               background: "#0e131e",
               color: "#fff",
-              padding: "40px",
+              padding: "2rem",
             }}
             contentArrowStyle={{
               borderRight: "7px solid  rgb(78, 86, 141)",
@@ -45,7 +45,7 @@ export function Timeline() {
             contentStyle={{
               background: "#0e131e",
               color: "#fff",
-              padding: "40px",
+              padding: "2rem",
             }}
             contentArrowStyle={{
               borderRight: "7px solid  rgb(78, 86, 141)",
@@ -84,7 +84,7 @@ export function Timeline() {
             contentStyle={{
               background: "#0e131e",
               color: "#fff",
-              padding: "40px",
+              padding: "2rem",
             }}
             contentArrowStyle={{
               borderRight: "7px solid  rgb(78, 86, 141)",
