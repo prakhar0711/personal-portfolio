@@ -16,9 +16,9 @@ import "../assets/css/techstack.css";
 function TechStack() {
   return (
     <div className="tech-stack-container">
-      <div className="p-60 sm:p-20 bg-[#0e131e]">
+      <div className="p-10 sm:p-20 bg-[#0e131e]">
         <div className="px-10 sm:px-20 flex justify-center text-4xl sm:text-5xl">
-          <img src={techstackicon} alt="techstack" className="w-40" />
+          <img src={techstackicon} alt="techstack" className="w-32 sm:w-40" />
         </div>
         <div className="flex flex-wrap justify-center p-10 sm:p-20">
           <TechStackCard
