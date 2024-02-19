@@ -1,0 +1,18 @@
+.vertical-timeline-element-title {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+  color: rgb(78, 86, 141);
+}
+
+.vertical-timeline-element-subtitle {
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+
+.vertical-timeline-element p {
+  font-size: 1rem;
+  color: rgb(145, 156, 161);
+}
+h4{
+    color: rgb(74, 80, 85);
+}
