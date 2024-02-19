@@ -1,3 +1,4 @@
+import React from "react";
 import bgImage from "./assets/images/bg-image.png";
 import Hometext from "./components/Hometext";
 import Navbar from "./components/Navbar";
@@ -12,77 +13,92 @@ import instagram from "./assets/icons/landingpage_icons/instagram_1.svg";
 import mail from "./assets/icons/landingpage_icons/mail_1.svg";
 import Contact from "./components/Contact.jsx";
 import contact from "./assets/images/contact.svg";
+
 function App() {
   return (
     <>
       <Navbar />
       <div id="home" className="font-mono w-full min-h-screen relative">
-        <div
-          id="home"
-          className="absolute justify-center inset-0 flex flex-col items-center"
-        >
+        <div className="absolute inset-0 flex flex-col items-center">
           <img
             src={bgImage}
             alt="background-image"
             className="w-full h-full object-cover"
           />
-          <div className="absolute top-0 left-0 w-full h-full flex flex-col items-center justify-center">
-            <h1 className="text-3xl sm:text-4xl lg:text-6xl font-bold text-white">
+          <div className="absolute inset-0 flex flex-col items-center justify-center">
+            <h1 className="text-3xl sm:text-4xl lg:text-6xl font-bold text-white text-center">
               <Hometext />
             </h1>
-            <br />
-            <p>
-              <div className="flex gap-2 ml-auto">
-                <a target="_blank" href="mailto:prakhar.pratyush8010@gmail.com">
-                  <img target="_blank" src={mail} alt="LinkedIn" />
-                </a>
-                <a
-                  target="_blank"
-                  href="https://www.linkedin.com/in/prakhar-pratyush-2a317a244/"
-                >
-                  <img target="_blank" src={linkedin} alt="LinkedIn" />
-                </a>
-                <a target="_blank" href="https://github.com/prakhar0711">
-                  <img src={github} alt="GitHub" />
-                </a>
-                <a target="_blank" href="https://twitter.com/Prakhar0711">
-                  <img src={twitter} alt="Twitter" />
-                </a>
-                <a target="_blank" href="https://www.instagram.com/pp_80/">
-                  <img src={instagram} alt="Instagram" />
-                </a>
-              </div>
-            </p>
+            <div className="flex gap-2 mt-4">
+              <a href="mailto:prakhar.pratyush8010@gmail.com">
+                <img src={mail} alt="Mail" />
+              </a>
+              <a
+                href="https://www.linkedin.com/in/prakhar-pratyush-2a317a244/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img src={linkedin} alt="LinkedIn" />
+              </a>
+              <a
+                href="https://github.com/prakhar0711"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img src={github} alt="GitHub" />
+              </a>
+              <a
+                href="https://twitter.com/Prakhar0711"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img src={twitter} alt="Twitter" />
+              </a>
+              <a
+                href="https://www.instagram.com/pp_80/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img src={instagram} alt="Instagram" />
+              </a>
+            </div>
           </div>
         </div>
       </div>
 
-      <div id="about" className="font-mono flex justify-center items-center">
+      <div
+        id="about"
+        className="font-mono flex justify-center items-center p-5 sm:p-10"
+      >
         <AboutMe />
       </div>
 
       <div
         id="tech-stack"
-        className="font-mono flex justify-center items-center"
+        className="font-mono flex justify-center items-center p-5 sm:p-10"
       >
         <TechStack />
       </div>
 
-      <div id="timeline" className="font-mono p-5 lg:p-20">
+      <div id="timeline" className="font-mono p-5 sm:p-10">
         <Timeline />
       </div>
 
       <div
         id="projects"
-        className="font-mono flex justify-center items-center bg-[#0e131e]"
+        className="font-mono flex justify-center items-center bg-[#0e131e] p-5 sm:p-10"
       >
         <Projects />
       </div>
-      <div id="contact" className="grid grid-cols-1 md:grid-cols-2 gap-4">
-        <div className="order-2 md:order-1">
+
+      <div
+        id="contact"
+        className="font-mono grid grid-cols-1 md:grid-cols-2 gap-4 p-5 sm:p-10"
+      >
+        <div>
           <Contact />
         </div>
-        <div className="order-1 md:order-2">
+        <div>
           <img src={contact} alt="contact" className="w-full h-auto" />
         </div>
       </div>
