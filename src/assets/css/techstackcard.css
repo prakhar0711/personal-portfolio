@@ -9,8 +9,12 @@
 .card:hover {
   transform: translateY(-10px); /* Move the card up slightly on hover */
 }
+.card {
+  width: 100%; /* Base width */
+}
+
 @media (max-width: 768px) {
   .card {
-    max-width: 300px; /* or any other desired width */
+    width: 320px; /* Adjust for your desired mobile width */
   }
 }
