@@ -68,14 +68,14 @@ function App() {
 
       <div
         id="about"
-        className="font-mono flex justify-center items-center p-5 sm:p-10"
+        className="font-mono "
       >
         <AboutMe />
       </div>
 
       <div
         id="tech-stack"
-        className="font-mono flex justify-center items-center p-5 sm:p-10"
+        className="font-mono "
       >
         <TechStack />
       </div>
