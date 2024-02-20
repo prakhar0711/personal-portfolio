@@ -1,20 +1,15 @@
-.navbar-container {
-  transition: opacity 0.3s ease, transform 0.3s ease;
-}
-
 .navbar-item {
   padding: 0.5rem 1rem;
   border-radius: 0.5rem;
-  transition: color 0.3s ease;
+  transition: color 0.5s ease;
 }
 @media (max-width: 768px) {
   .navbar-container {
     flex-direction: column;
     align-items: center;
   }
-
+  
   .navbar-item {
-    margin: 4px 0;
+    margin-bottom: 10px;
   }
 }
-
