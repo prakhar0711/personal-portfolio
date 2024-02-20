@@ -22,7 +22,7 @@ function TechStackCard({
   return (
     <div className="card flex flex-wrap w-96 bg-base-100 shadow-xl rounded-2xl ">
       <div className="card-body">
-        <h2 className="card-title font-extrabold ">{title}</h2>
+        <h2 className="card-title font-bold">{title}</h2>
         <p>{description}</p>
         <div className="card-actions justify-end">
           {img1 && <img src={img1} alt={`${title} Logo`} />}

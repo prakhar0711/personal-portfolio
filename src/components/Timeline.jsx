@@ -10,7 +10,7 @@ export function Timeline() {
   return (
     <>
       <div>
-        <h1 className="font-bold text-white items-center justify-center flex ">
+        <h1 className="text-white items-center justify-center flex ">
           <img src={calendar} alt="timeline" />
         </h1>
       </div>
@@ -29,7 +29,7 @@ export function Timeline() {
             date="2020 - present"
             iconStyle={{ background: "rgb(78, 86, 141)", color: "#fff" }}
           >
-            <h3 className="vertical-timeline-element-title">
+            <h3 className=" vertical-timeline-element-title">
               Kalinga Institute of Industrial Technology
             </h3>
             <h4 className="vertical-timeline-element-subtitle">

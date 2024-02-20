@@ -75,12 +75,12 @@ function App() {
 
       <div
         id="tech-stack"
-        className="font-mono "
+        className="font-sans"
       >
         <TechStack />
       </div>
 
-      <div id="timeline" className="font-mono p-5 sm:p-10">
+      <div id="timeline" className="font-mono p-5 sm:p-20">
         <Timeline />
       </div>
 

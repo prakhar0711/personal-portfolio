@@ -20,12 +20,15 @@ h4 {
 
 @media (max-width: 768px) {
   /* Adjust max-width as needed */
-  .vertical-timeline-element-content {
-    padding: 20px; /* Adjust padding for smaller screens */
-  }
-
   .vertical-timeline-element-subtitle {
+    font-size: 12px; /* Adjust font size for smaller screens */
+  }
+  
+  .vertical-timeline-element-title {
     font-size: 14px; /* Adjust font size for smaller screens */
+  }
+  .list-disc{
+    font-size: 13px;
   }
 
   /* Add more styles as needed */
