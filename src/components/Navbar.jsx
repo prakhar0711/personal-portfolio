@@ -4,8 +4,8 @@ import { Link } from "react-scroll";
 function Navbar() {
   return (
     <div className="absolute inset-x-0 top-2 flex justify-center z-10">
-      <div className="navbar-container fixed bg-neutral-900 rounded-full">
-        <div className="flex space-x-4 text-white text-lg">
+      <div className=" navbar-container fixed bg-neutral-900 rounded-full">
+        <div className=" flex  text-white text-lg">
           <Link
             title="Home"
             to="home"
