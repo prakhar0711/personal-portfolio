@@ -1,5 +1,7 @@
 import { useRef } from "react";
 import emailjs from "@emailjs/browser";
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 const Contact = () => {
   const form = useRef();
@@ -13,7 +15,7 @@ const Contact = () => {
       })
       .then(
         () => {
-          console.log("SUCCESS!");
+          toast.success("Email sent successfully!");
         },
         (error) => {
           console.log("FAILED...", error.text);
@@ -83,6 +85,7 @@ const Contact = () => {
               <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z" />
             </svg>
             <textarea
+              name="message"
               className="textarea textarea-primary w-full max-w-xs "
               placeholder="Message"
             ></textarea>
@@ -97,6 +100,7 @@ const Contact = () => {
           </button>
         </form>
       </div>
+      <ToastContainer />
     </>
   );
 };
